@@ -1,0 +1,41 @@
+
+.explorer{
+  
+    background-color:$background-color; 
+    padding:rem(40) 0;
+    text-align: center;
+    &__title{
+        font-size:$f1-font-size;
+        font-weight:$bold-font-weight; 
+        margin: 0 rem(58) 0 rem(42);
+    }
+    &__content{
+        font-size: $f2-font-size;
+        font-weight:$light-font-weight; 
+        color: $grey; 
+        margin: 0 rem(26) rem(27) rem(34);
+    }
+
+    &__btn{
+        width: rem(218);
+        height: rem(50); 
+        border-radius:rem(map-get($radius,btn));
+        background-image: $background-image;
+        @include box-shadow-btn;
+        color: $white;
+        border: none;
+        font-size: $f4-font-size;
+        font-weight:$medium-font-weight;
+        padding: rem(13) rem(18.75);
+        
+        &:hover {
+           @include lighten;
+            cursor: pointer;
+            color: $white;
+          }
+        
+    }
+
+    
+ 
+}

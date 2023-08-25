@@ -1,0 +1,13 @@
+.header{
+  
+    @include box-shadow-logo;
+    padding:rem(14) rem(89) rem(13) rem(89);
+    margin:0;
+    position: relative;
+  
+    &__logo{
+        font-family:$logo-font-family; 
+        text-align: center;
+    }
+
+}

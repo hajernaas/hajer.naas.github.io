@@ -1,0 +1,26 @@
+
+//font-family
+$body-font-family: 'Roboto', sans-serif;
+$logo-font-family: 'Shrikhand', cursive;
+
+//font-weight
+$light-font-weight:300;
+$regular-font-weight:400;
+$medium-font-weight:500;
+$bold-font-weight:700;
+
+//font-size
+$f1-font-size: rem(24);
+$f2-font-size: rem(18);
+$f3-font-size: rem(17);
+$f4-font-size: rem(16);
+$f5-font-size: rem(14);
+
+* { 
+    box-sizing: border-box;
+}
+
+html, body{
+    margin:0;
+    font-family: $body-font-family;
+}

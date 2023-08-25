@@ -1,0 +1,30 @@
+
+%background-color-location{
+    background-color: $grey-2;
+}
+.location{
+     @extend %background-color-location;
+    height: rem(50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:rem(5);
+
+    &__icon{
+        width: rem(12);
+        height: rem(16); 
+    }
+
+    &__input{
+        text-align: center;
+        font-size:$f4-font-size ;
+        font-weight:$bold-font-weight;
+        border: none;
+        @extend %background-color-location;
+        width:rem(150);
+        height:rem(49);
+        color:$grey ; 
+        
+    }
+
+}

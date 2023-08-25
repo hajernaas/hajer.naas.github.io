@@ -1,0 +1,29 @@
+//mixins
+@mixin border-radius($size){
+    border-radius: $size;
+}
+
+@mixin box-shadow-logo
+{
+    box-shadow: 0 rem(2) rem(4) 0 $border-box-shadow-logo ;
+}
+
+@mixin box-shadow-btn
+{
+    box-shadow: 0 rem(4) rem(10) 0 $border-box-shadow-btn;
+}
+
+@mixin box-shadow-menu
+{
+    box-shadow: 0 rem(4) rem(15) 0 $border-box-shadow-menu;
+}
+
+@mixin lighten 
+{
+    background-color: lighten($color-primary, 10%);
+    background-blend-mode: lighten; 
+    opacity: 1;
+}
+
+
+
